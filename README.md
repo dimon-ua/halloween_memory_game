@@ -63,6 +63,8 @@ The goal of the project was to show what can be done with a pure JavaScript. Thi
 No bugs
 
 **Testing**
+
+
 ![Performance](https://github.com/dimon-ua/halloween_memory_game/assets/19237081/ffc7d3b8-c3b8-4a50-a941-c0ed3abdab07)
 
 
