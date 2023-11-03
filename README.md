@@ -1,6 +1,6 @@
 **Helloween Memory Game**
 
-Link - [https://dimon-ua.github.io/halloween_memory_game/](url)
+Link - https://dimon-ua.github.io/halloween_memory_game/
 
 The goal of the project was to show what can be done with a pure JavaScript. This project can be used to check how can you memorize simple images and just to kill few minutes in a queue. This project far to be ideal but can be extended in a future. This Game if fully responsive and can be suited to play in laptop and mobile devices. 
 
