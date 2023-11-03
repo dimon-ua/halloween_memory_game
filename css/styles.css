@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body {
+    /*background: radial-gradient(#9d5902, #422604);*/
+    background-color: #FFD580;
+}
+
+h1{
+    font-family: 'Nosifer', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 4em;
+    color: #FF7518;
+    /*border: white solid 2px;*/
+    width: 480px;
+    margin: 0 auto;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+}
+.score{
+    font-family: 'Creepster', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color: #FF7518;
+    /* border: white solid 2px; */
+    width: 700px;
+    margin:auto;
+    
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 5px;
+    justify-content: space-evenly;
+    /* border: white solid 2px; */
+    width: 700px;
+    margin:0 auto;
+}
+
+p.score{
+    text-align: left;
+}
+.namePlayer{
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    #grid-container {
+        grid-template-columns: repeat(2, auto);
+    }    
+
+    h1{
+        font-size: 25px! important;
+        line-height: 80%;
+        margin-top: 10px;
+        width: 50%;
+    }
+    #grid-container{
+        margin: auto; 
+        width: 50%;
+    }
+    .score{
+        width: 50%;
+    }
+}
